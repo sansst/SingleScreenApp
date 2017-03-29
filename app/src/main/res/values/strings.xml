@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Daniels bike shop</string>
+    <string name="descriptionText">All sort of bike reparations for all kind of bikes: Road, MTB, Downhill, Freeride \nAlso you can find bike components and tools.</string>
+    <string name="callText">Call</string>
+    <string name="emailText">E-mail</string>
+    <string name="goText">Go</string>
+    <string name="horary">Monday: 16-20 \nTuesday-Friday 10-14 16-20   Saturday: 10-14</string>
+
+</resources>
