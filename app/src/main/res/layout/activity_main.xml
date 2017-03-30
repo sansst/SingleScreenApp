@@ -67,12 +67,15 @@
             android:layout_weight="1"
             android:orientation="vertical">
 
-            <ImageView
+            <ImageButton
                 android:id="@+id/imageView2"
                 android:layout_width="45dp"
                 android:layout_height="45dp"
                 android:layout_gravity="top|center"
                 android:layout_marginTop="5dp"
+                android:background="@color/colorPrimary"
+                android:onClick="ButtonPhone"
+                android:scaleType="centerCrop"
                 android:tint="@color/icons"
                 app:srcCompat="@android:drawable/stat_sys_speakerphone" />
 
@@ -93,12 +96,15 @@
             android:layout_weight="1"
             android:orientation="vertical">
 
-            <ImageView
+            <ImageButton
                 android:id="@+id/imageView3"
                 android:layout_width="45dp"
                 android:layout_height="45dp"
                 android:layout_gravity="top|center"
                 android:layout_marginTop="5dp"
+                android:background="@color/colorPrimary"
+                android:onClick="ButtonMail"
+                android:scaleType="centerCrop"
                 android:tint="@color/icons"
                 app:srcCompat="@android:drawable/sym_action_email" />
 
@@ -119,12 +125,15 @@
             android:layout_weight="1"
             android:orientation="vertical">
 
-            <ImageView
+            <ImageButton
                 android:id="@+id/imageView4"
                 android:layout_width="45dp"
                 android:layout_height="45dp"
                 android:layout_gravity="top|center"
                 android:layout_marginTop="5dp"
+                android:background="@color/colorPrimary"
+                android:onClick="ButtonMaps"
+                android:scaleType="centerCrop"
                 android:tint="@color/icons"
                 app:srcCompat="@android:drawable/ic_dialog_map" />
 
